@@ -1,0 +1,19 @@
+---
+kind: "Invoke"
+apiVersion: "api.ibm.com/v1"
+metadata:
+  name: "StraightThroughRoutingforAPIBankingAPI"
+  namespace: "BankingAPI"
+  tags: []
+  version: "1.0.7"
+spec:
+  endpoint:
+    http:
+      statusException: []
+      target:
+        persistentConnection: true
+        timeout: 30
+        url: "https://petstore.swagger.io/v2/${sys:resource_path}"
+        compression: false
+        chunkedUploads: false
+      verb: "CUSTOM"

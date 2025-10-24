@@ -1,0 +1,11 @@
+---
+kind: "URISchemes"
+apiVersion: "api.ibm.com/v1"
+metadata:
+  name: "EnableHTTPHTTPSforAPIBankingAPI"
+  namespace: "BankingAPI"
+  tags: []
+  version: "1.0.7"
+spec:
+  uriSchemes:
+  - "http"

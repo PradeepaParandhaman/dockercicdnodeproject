@@ -1,0 +1,18 @@
+kind: Invoke
+apiVersion: api.ibm.com/v1
+metadata:
+  name: invoke
+  version: 1.0
+  namespace: invokeproject
+  labels:
+    gatewayTypes:
+      - nanoGateway
+spec:
+  endpoint:
+    http:
+      target:
+        url: https://sample-api.us-east-a.apiconnect.automation.ibm.com/bank/branches
+        timeout: 60
+      verb: GET
+  outputMessage: response
+

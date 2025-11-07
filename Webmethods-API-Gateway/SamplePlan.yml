@@ -1,0 +1,23 @@
+kind: Plan
+apiVersion: api.ibm.com/v1
+metadata:
+  name: SamplePlan
+  namespace: BasicInvokeProject
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  qos:
+    withQuota:
+      plan-limit:
+        - $ref: BasicInvokeProject:Quota-zeboj6:1.0
+  extensions:
+    webm-gateway:
+      apiVersion: api.ibm.com/v1
+      spec:
+        withRateLimit:
+          - name: rate-limit-1
+            maxRequest: 100
+            interval: 60m
+            alertFrequency: once
+            alertMessage: alerted

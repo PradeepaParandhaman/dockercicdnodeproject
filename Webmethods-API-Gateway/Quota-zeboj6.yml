@@ -1,0 +1,24 @@
+kind: Quota
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Quota-zeboj6
+  namespace: BasicInvokeProject
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  maxRequest: 100
+  interval: 60h
+  extensions:
+    webm-gateway:
+      apiVersion: api.ibm.com/v1
+      spec:
+        alertMessage: alerted
+        alertFrequency: once
+        onLimitReach: block
+        notification:
+          enabled: true
+          notifyAfter: '50'
+          message: Notification message
+          email:
+            - contact@ibm.com

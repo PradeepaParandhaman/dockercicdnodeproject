@@ -1,0 +1,17 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: nanospec
+  namespace: invokeproject
+  version: 1
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./nanoSpec-spec.yml
+  policy-sequence:
+    - $ref: invokeproject:sequence-free:1.0
+  uriSchemes:
+    $ref: invokeproject:new_uri:1.0
+  cors:
+    $ref: invokeproject:mycors:1.0

@@ -5,3 +5,9 @@ projects:
       - API
       - sample project
     lastUpdated: 1762512495202
+  Datapower-Nano-Gateway:
+    description: Sample API and Policies
+    tags:
+      - API
+      - sample project
+    lastUpdated: 1762513725799

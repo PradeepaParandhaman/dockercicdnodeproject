@@ -1,0 +1,13 @@
+kind: Product
+apiVersion: api.ibm.com/v1
+metadata:
+  name: BasicProduct
+  namespace: BasicInvokeProject
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  apis:
+    - $ref: BasicInvokeProject:BasicAPI:1.0
+  plans:
+    - $ref: BasicInvokeProject:SamplePlan:1.0

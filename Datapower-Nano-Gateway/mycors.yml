@@ -1,0 +1,29 @@
+kind: CORS
+apiVersion: api.ibm.com/v1
+metadata:
+  name: mycors
+  namespace: invokeproject
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  rules:
+    - action: allow
+      originList:
+        - http://test.ibm.com
+      allowCredentials: false
+      allowMethods:
+        - DELETE
+        - GET
+        - HEAD
+        - OPTIONS
+        - POST
+        - PUT
+      allowHeaders:
+        - Content-Type
+      maxAge: 0
+      exposeHeaders:
+        predefined: false
+        custom: hello
+        backend: false
+

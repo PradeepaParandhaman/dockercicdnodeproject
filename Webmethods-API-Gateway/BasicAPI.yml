@@ -1,0 +1,15 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: BasicAPI
+  namespace: BasicInvokeProject
+  version: '1.0'
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./BasicAPI-spec.yml
+  policy-sequence:
+    - $ref: BasicInvokeProject:SampleStagedPolSeq:1.0
+  uriSchemes:
+    $ref: BasicInvokeProject:SampleUriScheme:1.0

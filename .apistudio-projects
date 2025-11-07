@@ -1,10 +1,4 @@
 projects:
-  Datapower-API-Gateway:
-    description: Sample API and Policies
-    tags:
-      - API
-      - sample project
-    lastUpdated: 1762499309149
   Webmethods-API-Gateway:
     description: Sample API and Policies
     tags:

@@ -1,5 +1,0 @@
-projects:
-  InvokeProject:
-    description: 'Publishes to DataPower Nano Gateway with invoke policy'
-    tags: ['DataPower Nano Gateway']
-    lastUpdated: 1743005951090

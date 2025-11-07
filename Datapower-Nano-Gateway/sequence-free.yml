@@ -1,9 +1,0 @@
-kind: FreeFlowPolicySequence
-apiVersion: api.ibm.com/v1
-metadata:
-  name: sequence-free
-  version: 1.0
-  namespace: invokeproject
-spec:
-  main:
-    - $ref: invokeproject:invoke:1.0

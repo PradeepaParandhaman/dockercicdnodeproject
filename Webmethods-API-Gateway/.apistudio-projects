@@ -1,0 +1,10 @@
+projects:
+  BasicInvokeProject:
+    description: 'Publishes to webMethods API Gateway with invoke policy'
+    tags: ['webMethods API Gateway']
+    lastUpdated: 1743005951090
+  webMethodsPetStore:
+    description: 'Publishes to webMethods API Gateway with invoke policy'
+    tags: ['webMethods API Gateway']
+    lastUpdated: 1743005951090
+  

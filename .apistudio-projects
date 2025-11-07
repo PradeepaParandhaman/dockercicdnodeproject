@@ -5,3 +5,9 @@ projects:
       - API
       - sample project
     lastUpdated: 1762513725799
+  Datapower-API-Gateway:
+    description: Sample API and Policies
+    tags:
+      - API
+      - sample project
+    lastUpdated: 1762514029352

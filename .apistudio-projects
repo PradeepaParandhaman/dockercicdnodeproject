@@ -5,23 +5,28 @@ projects:
       - sample
       - API
     lastUpdated: 1763617390316
+    id: 30Pc1vWx
   wM-APIKey-Petstore:
     description: Sample project with API definitions and policies
     tags:
       - sample
       - API
     lastUpdated: 1763617390319
+    id: vskQKIWz
   wM-NoAuth-Petstore:
     description: Sample project with API definitions and policies
     tags:
       - sample
       - API
     lastUpdated: 1763617390321
+    id: 2lbTexo2
   NewProject:
     description: ''
     tags: []
     lastUpdated: 1763618454206
+    id: bDKRA9G3
   secureEndpoint:
     description: ''
     tags: []
     lastUpdated: 1763619018354
+    id: 2lcRn3Gc

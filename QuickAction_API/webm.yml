@@ -1,0 +1,15 @@
+kind: StagedPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: webm
+  namespace: QuickAction_API
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - webMethods
+spec:
+  routing:
+    - $ref: QuickAction_API:invoke-webm:1.0
+  transport:
+    - $ref: QuickAction_API:Inbound:1.0
